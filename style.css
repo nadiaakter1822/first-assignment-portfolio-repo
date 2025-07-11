@@ -1,5 +1,9 @@
 *{
     margin:0px;
+    
+}
+
+main{
     background-color: #f5f8ff;
 }
 
@@ -50,12 +54,20 @@
     border: 0px;
     border-radius: 10px;
     align-items: center;
+    text-decoration: none;
+}
+
+.button-hover :hover{
+    background-color: #372fff; 
+    transform: translateY(-3px); 
 }
 
 .main-button a{
-    background-color: #4e47ff;
+    background-color: transparent;
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
+    
 }
 
 .first-section{
@@ -103,9 +115,15 @@
 }
 
 .button-two a {
-    background-color: #4e47ff;
+    background-color: transparent;
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
+}
+
+.text-center :hover{
+    background-color: #372fff; 
+    transform: translateY(-3px); 
 }
 
 .container{
@@ -148,9 +166,15 @@
 }
 
 .third-button a {
-    background-color: #4e47ff;
+    background-color: transparent;
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
+}
+
+.hover-two :hover {
+    background-color: #372fff; 
+    transform: translateY(-3px); 
 }
 
 .second-image img {
@@ -163,8 +187,7 @@
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 50px;
-    border-radius: 20px;
-    
+    border-radius: 20px;   
 }
 
 .users h2 {
@@ -368,9 +391,15 @@ i{
 }
 
 .fourth-button a{
-    background-color: #4e47ff;
+    background-color: transparent;
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
+}
+
+.button-style :hover{
+    background-color: #372fff; 
+    transform: translateY(-3px); 
 }
 
 .banner {
@@ -395,7 +424,8 @@ i{
     margin-left: 200px;
     margin-right: 240px;
     gap: 50px;
-    padding: 50px 0px
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .heading-seven {
@@ -462,3 +492,53 @@ label {
     font-size: 20px;
     border-radius: 20px;
 }
+
+.form-fill input[type="submit"]:hover{
+    background-color: #372fff; 
+    transform: translateY(-3px); 
+}
+
+.footer{
+    padding-bottom: 100px;
+    border-top: 2px;
+    border-color: #92939c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagealign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para-four{
+    background-color: transparent;
+    color: #8987a1;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.nav{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #8987a1;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400px;
+}
+
