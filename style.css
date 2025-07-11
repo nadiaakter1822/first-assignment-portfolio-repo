@@ -206,3 +206,108 @@
     font-size: 20px;
     font-weight:400;
 }
+
+.fourth-container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.testimonials-title {
+    color: #252432;
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 600px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.grid-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.testimonial-one {
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    width: 500px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.star {
+    color: #ffc024;
+    background-color: transparent;
+    padding: 15px 0px;
+}
+i{
+    background-color: transparent;
+}
+
+.test{
+    background-color: transparent;
+    color: #252432;
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.describe{
+    background-color: transparent;
+    color: #92939c;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    gap: 20px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 13px;
+}
+
+.pictures {
+    background-color: transparent;
+    position: relative;
+    z-index: 13px;
+}
+
+.pictures img{
+    border-radius: 100px;
+}
+
+.bio{
+    background-color: transparent;
+    position: relative;
+    z-index: 13px;
+    padding-bottom: 15px;
+}
+
+.name{
+    background-color: transparent;
+    color: #757575;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 300px;
+    padding-bottom: 5px;
+}
+
+.position{
+    background-color: transparent;
+    color: #b4b5be;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 300px;
+    padding-bottom: 10px;
+}
